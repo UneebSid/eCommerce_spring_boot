@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: ecommerce-rest-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecomdb
+    username: root
+    password: Yaqoob50
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
